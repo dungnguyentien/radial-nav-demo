@@ -12,17 +12,17 @@ $radial_nav_width: 400px;
   border: 1px solid;
   overflow: hidden;
 
-  &:before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 60%;
-    left: 0;
-    background-color: red;
-    z-index: 999;
-  }
+  //&:before {
+  //  content: '';
+  //  display: block;
+  //  width: 100%;
+  //  height: 100%;
+  //  position: absolute;
+  //  top: 60%;
+  //  left: 0;
+  //  background-color: red;
+  //  z-index: 999;
+  //}
 }
 
 .radial-nav-item {
@@ -83,7 +83,7 @@ $radial_nav_width: 400px;
   width: 50%;
   height: 100%;
   z-index: 20;
-  background-color: rgba(#000, 0.5);
+  background-color: rgba(red, 0.5);
 }
 
 .radial-nav-btn-next {
@@ -97,5 +97,5 @@ $radial_nav_width: 400px;
   width: 50%;
   height: 100%;
   z-index: 20;
-  background-color: rgba(#000, 0.5);
+  background-color: rgba(green, 0.5);
 }
